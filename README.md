@@ -1,27 +1,16 @@
-# CryptoMarketData
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Task Description:
+Create Web application which allows to receive real time market data and historical price charts
+for different crypto currencies.
+Business requirements:
+It should be single page website which should show real time market price and time for
+specified crypto currency, price should be changed every time you receive update from the API.
+Another feature which needs to be implemented is historical prices chart(graph) which allows
+to track cryptocurrencies behavior over time.
+Technical requirements
+Application should be written with Angular framework. Data provider for real time and
+historical prices should be https://CoinAPi.io . Documentation located by this url:
+https://docs.coinapi.io/#md-docs
+For the historical prices you should use REST API, and for the real time data you need to use
+WebSocket API. API Key can be obtained via data provider website, they have FREE plan which
+should be enough to do the task.
+Additional limitation is time (3 days)
