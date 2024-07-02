@@ -8,7 +8,7 @@ import { webSocket } from 'rxjs/webSocket';
   providedIn: 'root'
 })
 export class CoinApiService {
-  private apiKey = 'C4136A55-7B24-4D0E-980A-FE1A46E830C5';
+  private apiKey = '';
   private restApiUrl = 'https://rest.coinapi.io/v1/ohlcv/BITSTAMP_SPOT_BTC_USD/latest';
   private webSocketUrl = 'wss://ws.coinapi.io/v1/';
 
